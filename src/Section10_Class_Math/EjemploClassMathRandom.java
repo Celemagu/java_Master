@@ -19,7 +19,7 @@ public class EjemploClassMathRandom {
 		
 		
 		Random randomobj = new Random ();
-		int randomint = 15 +randomobj.nextInt(25 -15); // entre 0 a 15
+		int randomint = randomobj.nextInt(25 -15); // entre 0 a 15
 		System.out.println("randomint = "+ randomint);
 	
 		randomint= randomobj.nextInt(colores.length);

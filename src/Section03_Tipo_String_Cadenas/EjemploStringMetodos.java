@@ -14,7 +14,7 @@ public class EjemploStringMetodos {
 			System.out.println("arreglo = " + arreglo [i]);
 		}
 		
-		System.out.println("Trabalenguas= "+ trabalenguas.split("a"));
+		System.out.println("Trabalenguas= "+ trabalenguas.split("a").toString());
 		
 		String [] arreglo2 = trabalenguas.split("a");
 		int l= arreglo2.length;
